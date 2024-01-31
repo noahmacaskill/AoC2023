@@ -1,4 +1,6 @@
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     dig_plan = f.readlines()
 
 # Translate numeric direction to more readable alphabet character

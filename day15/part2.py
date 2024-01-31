@@ -1,4 +1,6 @@
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     init_sequence = f.readline()[:-1]
 
 def hash_algo(s: str) -> int:

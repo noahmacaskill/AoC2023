@@ -1,7 +1,9 @@
 from typing import List
 import bisect
 
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     platform = f.readlines()
 
 # Length and width are equivalent

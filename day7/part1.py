@@ -1,7 +1,9 @@
 from typing import List
 from functools import cmp_to_key
 
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     camel_cards = f.readlines()
 
 card_values = {

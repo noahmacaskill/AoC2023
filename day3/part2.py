@@ -1,4 +1,6 @@
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     schematic = f.readlines()
     max_row, max_col = len(schematic), len(schematic[0])-1
 

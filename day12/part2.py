@@ -1,4 +1,6 @@
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     spring_records = f.readlines()
 
 cached_combinations = {}

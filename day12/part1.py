@@ -1,6 +1,8 @@
 from typing import List
 
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     spring_records = f.readlines()
 
 def num_combinations(unknown_groupings: List[str], damaged_groupings: List[int]) -> int:

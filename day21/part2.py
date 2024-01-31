@@ -1,7 +1,6 @@
 import numpy as np
 
 INPUT = "input"
-PART1 = True
 
 NUM_STEPS = 26501365
 

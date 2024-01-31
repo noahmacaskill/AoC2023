@@ -1,4 +1,6 @@
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     calibration = f.readlines()
 
 # Replacements must be cushioned with the spelled out numbers to deal with overlap cases in which we want to preserve each number

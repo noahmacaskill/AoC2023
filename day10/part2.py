@@ -1,7 +1,9 @@
 from typing import List
 from collections import deque
 
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     pipe_grid = f.readlines()
 
 pipe_grid = [s.rstrip('\n') for s in pipe_grid]

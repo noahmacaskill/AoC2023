@@ -1,4 +1,6 @@
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     calibration = f.readlines()
 
 def digit_filter(s: str) -> str:

@@ -1,7 +1,9 @@
 import re
+
+INPUT = "input"
 MAX_BLUE, MAX_GREEN, MAX_RED = 14, 13, 12
 
-with open("input", "r") as f:
+with open(INPUT, "r") as f:
     games = f.readlines()
 
 def digit_filter(s: str) -> int:

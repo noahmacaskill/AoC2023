@@ -1,6 +1,8 @@
 import numpy as np
 
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     boat_races = f.readlines()
 
 def break_record(time: int, record: int) -> int:

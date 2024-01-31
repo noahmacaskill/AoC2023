@@ -1,4 +1,6 @@
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     grid = f.readlines()
 
 MAX_ROW = len(grid) - 1

@@ -1,4 +1,6 @@
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     observations = f.readlines()
 
 EXPANSION_MAGNITUDE = 1000000 # 2 for part 1

@@ -1,6 +1,8 @@
 from typing import List
 
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     almanac = f.readlines()
 
 def decode_map(cat_map: List[str]) -> List[tuple[int, int, int]]:

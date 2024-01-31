@@ -208,5 +208,5 @@ else: # Part 2
             cycles.append(iterations)
             feeder_modules.remove(module)
     
-    # LCM of the cycle lenghts is the number of iterations until a low pulse is sent to  rx
+    # LCM of the cycle lenghts is the number of iterations until a low pulse is sent to rx
     print(f"ANSWER: {math.lcm(*cycles)}")

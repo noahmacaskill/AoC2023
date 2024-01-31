@@ -1,4 +1,6 @@
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     scratchcards = f.readlines()
     copies = [1 for _ in range(len(scratchcards))]
 

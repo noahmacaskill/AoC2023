@@ -1,6 +1,8 @@
 from typing import List
 
-with open("input", "r") as f:
+INPUT = "input"
+
+with open(INPUT, "r") as f:
     report = f.readlines()
 
 history = []

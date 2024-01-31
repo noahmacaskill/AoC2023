@@ -1,6 +1,6 @@
-from typing import List
+INPUT = "input"
 
-with open("input", "r") as f:
+with open(INPUT, "r") as f:
     grid = f.readlines()
 
 MAX_ROW = len(grid) - 1

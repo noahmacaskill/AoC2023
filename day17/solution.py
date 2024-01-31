@@ -1,7 +1,9 @@
 from typing import List
 import heapq
 
-with open("input", "r") as f:
+INPUT ="input"
+
+with open(INPUT, "r") as f:
     map = f.readlines()
 
 PART1 = False
