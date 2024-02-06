@@ -14,4 +14,4 @@ Most days contain the following file structure:
 |   |- part2.py
 ```
 
-However some days contain the solutions to both parts in the same file (solution.py). In these cases, set the PART_1 variable accordingly (True for part 1, False for part 2)
+However some days contain the solutions to both parts in the same file (solution.py). In these cases, set the PART_1 variable accordingly (True for part 1, False for part 2).
